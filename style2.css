@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+
+.box {
+    width: 1000px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.graduada {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#cajita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.inputs {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.boton {
+    width: 50%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    background-color: #687ca4;
+    color: white;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #556b8d;
+}
+
+.forgot {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+#yale {
+    height: 60px;
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+#gorro {
+    height: 70px;
+    width: 80px;
+}
